@@ -8,7 +8,9 @@ The users.txt file defines the closed set of users that you want to chat to. The
 Compile the source code using the following command:
 ```
 gcc -o chatApp chatApp.c
+```
 or
+```
 make
 ```
 ## Running the application
