@@ -28,53 +28,34 @@ For testing on a single machine, run the executable in multiple instances of the
 ```
 ./chatApp 8000
 ```
-#### Terminal 1 Interaction Output (shashwat)
+#### Terminal 1 Interaction Output (Balli)
 ```
-Server Running! Start Conversation!
-Welcome to Peer Chat!
+Server socket created.
 
-These are the people available to chat:
-anmol
-balli
-aryan
-sunny
-harsh
+Welcome Balli to HeheChat
+Server binding successful.
+Server is listening...
 
-Enter ':q' for exiting application.
+Enter msg to send <friendname>/<msg>.(Enter :q to quit)
+Aryan: How everything?
+----------------------------------
 
-Use the following format for messaging:
-receiver_name/message
-
-anmol/Hey anmol!
-
-anmol: Hello balli!
-
-anmol/GTG. Bye!
-
-:q
+(Input)Aryan/Fine. how you?
+-----------Message Sent-----------
 ```
-#### Terminal 2 Interaction Output (amish)
+#### Terminal 2 Interaction Output (Aryan)
 ```
-Server Running! Start Conversation!
-Welcome to Peer Chat!
+Server socket created.
 
-These are the people available to chat:
-anmol
-balli
-aryan
-sunny
-harsh
+Welcome Aryan to HeheChat
+Server binding successful.
+Server is listening...
 
-Enter ':q' for exiting application.
+Enter msg to send <friendname>/<msg>.(Enter :q to quit)
+(Input)Balli/How everything?
+-----------Message Sent-----------
 
-Use the following format for messaging:
-receiver_name/message
-
-balli: Hey anmol!
-
-balli/Hello Balli!
-
-anmol: GTG. Bye!
-
+Output: Balli: Fine. how you?
+----------------------------------
 :q
 ```
