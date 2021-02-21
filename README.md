@@ -1,4 +1,4 @@
-# Peer-2-Peer-Chat-in-C
+# HeheChat-p2p-in-C
 A Peer to Peer(P2P) Chat Application in C using TCP Protocols for connections within a defined closed set of users.
 
 ## Adding Users
